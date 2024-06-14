@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+#app{
+    background: #111111;
+}
+//Инвертарь и предметы
+.item-name{
+    font-size: 20px;
+}
+.item-description{
+    color: darkgray;
+}
+// только в навигации
+.close {
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+
+    &:hover {
+        border-bottom: 1px solid red;
+    }
+}
+
